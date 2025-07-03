@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Discord';
+    src: url('/public/assets/fonts/');
+}
+@font-face {
+    font-family: 'Discord';
+    src: url('/public/assets/fonts/Boldonse-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Discord';
+    src: url('/public/assets/fonts/SupermercadoOne-Regular.ttf');
+    font-weight: 500;
+}

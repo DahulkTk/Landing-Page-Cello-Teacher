@@ -1,0 +1,385 @@
+body{
+    line-height: 1.6;
+    background-image: url('https://150799816.v2.pressablecdn.com/wp-content/uploads/2023/05/CelloMusicCollectionUNCG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffff;
+    color: #333;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-principal{
+    font-size: 22px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid black;
+    
+}
+ nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+ }
+ nav ul li{
+    margin-left: 20px;
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color: #653535;
+    font-weight: bold; 
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: #1a1313;
+    transition: background-color 0.3s ease, color 0.3 ease;
+
+ }
+
+ nav ul li a:hover{
+    background-color: #423636;
+ }
+
+ @media screen and (max-width: 600px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+       
+    }
+    nav ul li{
+        margin-left: 0 ;
+        margin-bottom: 10px;
+        width: 100vw;
+    }
+
+    nav ul li a{
+        display: block;
+        width: 100vw;
+        padding: 15px;
+        text-align: center;
+        border-radius: 0;
+    }
+ }
+
+
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    padding: 20px;
+    color: #ffff;
+    text-align: center;
+}
+
+.hero-content{
+    max-width: 100%;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: rgb(89, 16, 16);
+    
+}
+
+.hero-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+   
+
+    
+
+}
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.cta-button{
+    background-color: rgb(90, 66, 66);
+    color: #fffffff9;
+    padding: 8px 10px ;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.0em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+.cta-button:hover {
+    background-color: #774949;
+}
+
+.sobre{
+    background-color: #a777777f;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sobre h2{
+    font-size: 2.4em;
+    color: #030304;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sobre p{
+    color: #030304;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    border: 2px solid #786666cc;
+    border-radius: 8px;
+}
+
+.sobre-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.profile-image{
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.sobre-text{
+    flex-basis: 600px;
+    text-align: left;
+
+}
+.sobre-text p{
+    line-height: 1.7;
+    margin-bottom: 15px;
+    
+}
+
+@media (max-width: 768px){
+    .sobre-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+.sobre-text {
+    text-align: center;
+}
+.profile-image{
+    max-width: 100%;
+}
+
+}
+
+.aulas{
+    background-color: #a777777f;
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.aulas h2{
+ font-size: 2.4em;
+ text-align: left;
+ color: #000000;
+ margin-bottom: 20px;
+}
+
+.aulas-list{
+    list-style: circle;
+    padding: 1;
+    max-width: 900px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.aulas-list li{
+    padding: 3px 0;
+    align-items: center;
+}
+
+.aulas-list li:last-child{
+    border-bottom: none;
+}
+
+
+
+@media(max-width: 600px){
+    .aulas h2{
+        font-size: 2em;
+    }
+}
+
+.beneficios{
+    background-color: #a777777f;
+    padding: 0px 20px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.beneficios h2{
+ font-size: 2.4em;
+ color: #000000;
+ margin-bottom: 20px;
+}
+
+.beneficios-list{
+    list-style: circle;
+    padding: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    color: #000000;
+}
+
+.beneficios-list li{
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+}
+
+.beneficios-list li:last-child{
+    border-bottom: none;
+}
+
+
+
+@media(max-width: 600px){
+    .beneficios h2{
+        font-size: 2em;
+    }
+}
+
+.contato{
+    background-color: #a777777f ;
+    padding: opx 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.contato h2{ 
+    font-size: 2.4em;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contato p{
+    color: #000000;
+    line-height: 1.0;
+    margin-bottom: 30px;
+    max-width: 600px;
+    
+}
+
+.contact-form{
+    max-width: 500px;
+    padding: 10px;
+    background-color: #84747455;
+    border-radius: 10px;
+    border: 2px solid #786666cc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   display: inline-block;
+   flex-direction: column;
+   color: #000000;
+    
+}
+
+.form-group{
+    margin-bottom: 10;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-bottom: 2px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select{
+    width: calc(100% - 12px);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 1em;
+}
+
+.submit-button{
+    background-color: #261e1e9f;
+    color: #000000;
+    padding: 1px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.0em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #765a5a;
+}
+
+.contact-info{
+    margin-top: 40px;
+    color: #000000;
+    line-height: 1.6;
+   
+}
+
+.contact-info p{
+    margin-bottom:2px ;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+    .contato h2{
+        font-size: 2em
+    }
+    .contact-form{
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+    .submit-button{
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
+
+footer {
+    background-color: #7d6767c4;
+    color: #000000;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #555;
+    margin: 0;
+  }
